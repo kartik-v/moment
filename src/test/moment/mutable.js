@@ -34,3 +34,5 @@ test('duration manipulation methods', function (assert) {
     assert.notEqual(d, d.add(1, 'days'), 'add() should return a new duration');
     assert.notEqual(d, d.subtract(2, 'years'), 'subtract() should return a new duration');
 });
+
+// TODO(butterflyhug): add a few sanity-check tests to see if things still work after Object.freeze()
